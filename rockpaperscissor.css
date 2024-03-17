@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+ 
+}
+.photo{
+    background-image: url(rock.png);
+    background-size: cover;
+    filter: blur(8px);
+    position: absolute;
+}
+.game-body{
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:175px ;
+
+}
+.button{
+    background-color: orange;
+    color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   border-radius: 70px;
+   padding: 10px 10px;
+   font-size: 30px;
+   border-stye: solid;
+   border-color: orange;
+   margin: 20px;
+   border-color: white;
+   transition: opacity 0.2s background-color 0.2s border-color 0.2s color 0.2s;
+}
+.button:hover{
+    opacity: 0.65;
+}
+.button:active{
+background-color: black;
+border-style: solid;
+border-color: orange;
+color:orange;
+}
+.reset-button{
+    background-color: orange;
+    color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   border-radius: 70px;
+   padding: 2px 10px;
+   font-size: 20px;
+   border-stye: solid;
+   border-color: orange;
+   margin: 20px;
+   border-style: solid;
+   border-color: white;
+   width: fit-content;
+   
+   transition: opacity 0.2s background-color 0.2s border-color 0.2s color 0.2s;
+}
+.reset-button:hover{
+    opacity: 0.65;
+    border-style: solid;
+}
+.reset-button:active{
+background-color: black;
+border-style: solid;
+border-color: orange;
+color:orange;
+}
+.container{
+
+    display:flex;
+    flex-direction: column;
+    align-items: last baseline;
+    justify-content: center;
+
+}
+.scoreBoard{
+    color: white;
+    
+   
+}
+.outcome{
+    color: white;
+ 
+}
